@@ -1477,7 +1477,7 @@ function startQuestionnaire() {
   const welcome = document.getElementById('welcome-screen');
   const body    = document.getElementById('questionnaire-body');
   if (welcome) welcome.style.display = 'none';
-  if (body)    body.style.display = '';
+  if (body)    body.style.display = 'block';
   // Mise à jour de l'affichage du nom en synthèse
   updateSyntheseNameDisplay();
   // Scroll vers les verrous
@@ -1533,7 +1533,7 @@ function init() {
     const welcome = document.getElementById('welcome-screen');
     const body    = document.getElementById('questionnaire-body');
     if (welcome) welcome.style.display = 'none';
-    if (body)    body.style.display = '';
+    if (body)    body.style.display = 'block';
     updateSyntheseNameDisplay();
   } else {
     // Accueil visible (défaut CSS), synthèse affiche le nom vide
